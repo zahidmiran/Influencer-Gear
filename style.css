@@ -150,3 +150,25 @@ color: royalblue;
     color: white;
     text-align: center;
 }
+/* Media Queries */
+
+/* Mobike Devices */
+
+@media screen and (max-width: 1000px) and (min-width: 552px) {
+    body{
+        background-color: red;
+    
+    }
+    .start-influencer{
+        
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+    .section-item{
+        margin-left: 8%;
+    }
+    .logos-section{
+        
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
